@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+	{% block content %}
+	<h1>Contáctanos, llena el formulario</h1>
+	<form>
+		<p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+		<p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+		<p><label for="telefono">Télefono: <input type="text" id="telefono"></label></p>
+		<p><label for="correo">Correo: <input type="mail" id="correo"></label></p>
+		<button type="submit">Enviar</button>
+	</form>
+	{% endblock %}

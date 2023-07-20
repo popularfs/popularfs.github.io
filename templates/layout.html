@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Chefsito">
+	<meta name="keywords" content="marxismo,lucha popular,revolución,Camilo Torres">
+
+	<title>Popular Free Software</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
+
+	<!-- Fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header-main">
+		<nav class="header-main__navbar">	
+			<div id="navbar-brand"></div> 
+			<div class="navbar-items">
+<!-- 				<ul>
+					<li><a href="/">Inicio</li>
+					<li><a href="{{url_for('about')}}">Nosotros</li>
+					<li><a href="#">Contácto</li>					
+				</ul> -->
+			</div>
+		</nav>
+	</header>
+	<footer>
+	</footer>
+	{% block content %}
+	
+	{% endblock %}
+</body>
+</html>	

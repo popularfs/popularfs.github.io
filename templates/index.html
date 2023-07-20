@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+	{% block content %}
+	<main class="txg">
+		<h1 class="title-main-ct">Popular Free Software</h1>
+		<h2 class="subtitle-main-ct">Construyendo Software Libre y Poder Popular</h2>
+		<img class="img_popular" src="https://i.postimg.cc/s2Y91V8f/FREE-SOFTWARE-OR-DEATH-320-320-px-removebg-preview.png">
+		<div class="container">
+      <div class="text">
+         Contáctanos 
+      </div>
+      <form action="#">
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required>
+               <div class="underline"></div>
+               <label for="">Nombre(s)</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required>
+               <div class="underline"></div>
+               <label for="">Apellido(s)</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required>
+               <div class="underline"></div>
+               <label for="">Email</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required>
+               <div class="underline"></div>
+               <label for="">Organización</label>
+            </div>
+         </div>
+         <div class="form-row">
+         <div class="input-data textarea">
+            <textarea rows="8" cols="80" required></textarea>
+            <br />
+            <div class="text"></div>
+            <label for="">Asunto</label>
+            <br />
+            <div class="form-row submit-btn">
+               <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="submit">
+               </div>
+            </div>
+      </form>
+      </div>
+<!-- 	<form>
+		<p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+		<p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+		<p><label for="telefono">Télefono: <input type="text" id="telefono"></label></p>
+		<p><label for="correo">Correo: <input type="mail" id="correo"></label></p>
+		<button type="submit">Enviar</button>
+	</form> -->
+	</main>	
+	{% endblock %}
